@@ -1,0 +1,64 @@
+html {
+    background-image: url(pizza.jpeg);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    background-color: black;
+    flex-flow: column nowrap;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 20%;
+    min-width: 900px;
+    max-width: 900px;
+    height: 900px;
+    border-radius: 12px;
+}
+
+#content > div {
+    border: 2px solid white;
+    border-radius: 64px;
+}
+
+.img {
+    border-radius: 64px;
+    display: inline-block;
+}
+
+h1, h2 {
+    display: block;
+    color: rgb(180, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    flex: 0 1 auto;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    display: block;
+    color: lightgoldenrodyellow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 1.24rem;
+    padding: 24px;
+    flex: 0 1 auto;
+}
