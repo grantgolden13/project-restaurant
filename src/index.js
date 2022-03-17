@@ -1,4 +1,4 @@
-import './style.css';
-import { home } from "./home.js";
+import { init } from './init.js';
 
-document.appendChild(home());
+
+document.appendChild(init());
